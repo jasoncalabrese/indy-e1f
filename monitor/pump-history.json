@@ -1,15 +1,47 @@
 [
   {
+    "programmed": 2.9, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-21T11:59:34 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-21T11:59:34", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.4, 
+            "age": 311
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 321
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c081037d01841d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100740074000000", 
+    "amount": 2.9, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "62fb2b1510"
+  }, 
+  {
     "_type": "BolusWizard", 
     "bg": 219, 
     "bg_target_high": 160, 
-    "_description": "BolusWizard 2016-07-21T11:58:30 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-07-21T11:58:30", 
+    "_description": "BolusWizard 2016-07-21T11:59:34 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-21T11:59:34", 
     "_body": "285000b450731c00580000000074a0", 
     "_head": "5bdb", 
     "unabsorbed_insulin_total": 0.0, 
     "correction_estimate": 0.7, 
-    "_date": "5efa0b1510", 
+    "_date": "62fb0b1510", 
     "bolus_estimate": 2.9, 
     "appended": [
       {
@@ -30,6 +62,24 @@
         "_date": ""
       }
     ], 
+    "bg_target_low": 115, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 2.2, 
+    "carb_input": 40, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 219, 
+    "bg_target_high": 160, 
+    "_description": "BolusWizard 2016-07-21T11:58:30 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-21T11:58:30", 
+    "_body": "285000b450731c00580000000074a0", 
+    "_head": "5bdb", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.7, 
+    "_date": "5efa0b1510", 
+    "bolus_estimate": 2.9, 
     "bg_target_low": 115, 
     "carb_ratio": 18.0, 
     "food_estimate": 2.2, 
