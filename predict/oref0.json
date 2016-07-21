@@ -1,0 +1,1 @@
+{"temp":"absolute","bg":261,"tick":-12,"eventualBG":65,"snoozeBG":300,"predBGs":{"IOB":[261,249,236,223,208,193,177,160,143,127,112,97,83,69,57,45,39]},"COB":0,"IOB":3.395,"reason":"COB: 0, Dev: 76, BGI: -10.12, ISF: 80, Target: 130; Eventual BG 65 < 120, bolus snooze: eventual BG range 65-300, temp 0.55 ~ req 0.55U/hr"}
