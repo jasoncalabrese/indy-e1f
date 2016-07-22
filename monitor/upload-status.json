@@ -3,20 +3,20 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.53
+      "voltage": 1.58
     }, 
     "status": {
-      "status": "normal", 
-      "timestamp": "2016-07-22T04:45:57.000Z", 
+      "status": "error", 
+      "timestamp": "2016-07-22T04:53:23.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 26.3, 
-    "clock": "2016-07-21T21:45:15-07:00"
+    "reservoir": 301.9, 
+    "clock": "2016-07-21T21:52:47-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4315
+    "batteryVoltage": 4351
   }, 
   "openaps": {
     "enacted": {
@@ -135,42 +135,42 @@
     "scanDetails": [
       [
         "916.564", 
-        3, 
-        -88
+        5, 
+        -84
       ], 
       [
         "916.588", 
         5, 
-        -75
+        -79
       ], 
       [
         "916.612", 
         5, 
-        -75
+        -77
       ], 
       [
         "916.636", 
-        4, 
-        -80
+        5, 
+        -78
       ], 
       [
         "916.660", 
         5, 
-        -75
+        -82
       ], 
       [
         "916.684", 
         5, 
-        -76
+        -87
       ], 
       [
         "916.708", 
-        5, 
-        -83
+        4, 
+        -96
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-07-22T04:45:11.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2016-07-22T04:52:40.000Z", 
     "usedDefault": false
   }
 }
