@@ -1,5 +1,51 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-24T10:48:45 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-24T10:48:45-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c05288cc0", 
+        "data": [
+          {
+            "amount": 1.0, 
+            "age": 140
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.0, 
+    "duration": 0, 
+    "amount": 1.0, 
+    "unabsorbed": 0.15, 
+    "_head": "0100280028000600", 
+    "type": "normal", 
+    "_date": "6df02a1810"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-07-24T10:48:45 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-24T10:48:45-07:00", 
+    "_body": "165000a050730000360000000036a0", 
+    "carb_input": 22, 
+    "bg_target_high": 160, 
+    "sensitivity": 80, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 1.35, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 115, 
+    "_head": "5b00", 
+    "bolus_estimate": 1.35, 
+    "_date": "6df00a1810"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-07-24T10:45:57 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-24T10:45:57-07:00", 
