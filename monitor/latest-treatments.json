@@ -1,14 +1,17 @@
 {
-  "_id": "5796c0ae65110bbfc193a362",
-  "_type": "Rewind",
-  "_description": "Rewind 2016-07-25T18:44:12 head[2], body[0] op[0x21]",
-  "timestamp": "2016-07-25T18:44:12-07:00",
+  "_id": "5796c39b65110bbfc193a367",
+  "_type": "Prime",
+  "_description": "Prime 2016-07-25T18:52:24 head[5], body[0] op[0x03]",
+  "timestamp": "2016-07-25T18:52:24-07:00",
   "_body": "",
-  "_head": "2100",
-  "_date": "4cec121910",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind",
-  "created_at": "2016-07-25T18:44:12-07:00",
+  "_head": "0300000034",
+  "amount": 5.2,
+  "fixed": 0,
+  "type": "manual",
+  "_date": "58f4321910",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Prime",
+  "created_at": "2016-07-25T18:52:24-07:00",
   "enteredBy": "openaps://medtronic/723",
   "eventType": "Note",
-  "notes": "Rewind 723 "
+  "notes": "Prime 723 "
 }
